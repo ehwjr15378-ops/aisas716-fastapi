@@ -1,0 +1,45 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.so
+
+# ── 가상환경 ──
+venv/
+.venv/
+env/
+
+# ── 환경변수 / 비밀정보 (중요!) ──
+.env
+.env.*
+!.env.example
+
+# ── DB 파일 ──
+*.db
+*.sqlite3
+
+# ── 테스트 / 캐시 ──
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ── 빌드 / 배포 ──
+build/
+dist/
+*.egg-info/
+
+# ── 로그 ──
+*.log
+logs/
+
+# ── IDE / OS ──
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ── 업로드 파일 (있는 경우) ──
+uploads/
+static/files/*
+!static/files/.gitkeep
